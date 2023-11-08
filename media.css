@@ -1,0 +1,412 @@
+
+
+@media All  and (max-width: 992px){
+    .border{
+        border: none;
+    }
+}
+@media All  and (min-width: 1200px) {
+    .nav-bar{
+        width:80%;
+    }
+    .nav-left{
+        width: 20%;
+        float: left;
+        padding: 10px 0; 
+        margin-left: 100px;
+    }
+    .nav-right {
+      width: 70%;
+
+    }
+    #about{
+        width:90%;
+    }
+    .about-img{
+        width: 45%;
+    }
+    .border{
+     width:100%;
+     height:90%;
+      }
+    .about-info{
+        float:right;
+        width:55%;
+        padding: 50px;
+    }
+  
+}
+@media All  and (min-width:992px) and (max-width: 1200px) {
+    .nav-bar{
+        width:80%;
+    }
+    .nav-left{
+        width: 15%;
+        float: left;
+        padding: 10px 0; 
+        margin-left: 100px;
+    }
+    .nav-right {
+      width: 70%;
+    }
+    #about{
+        width:90%;
+    }
+    .about-img{
+        width: 45%;
+    }
+    .border{
+     width:100%;
+     height:90%;
+      }
+    .about-info{
+        float:right;
+        width:55%;
+        padding: 50px;
+    }
+    .image-container{
+        width:100%;
+      }
+    
+    .element{
+        float:left;
+        width:30%;
+        position:relative;
+        margin: 10px;
+    
+    }
+
+
+}
+
+@media All  and (min-width:768px) and (max-width: 992px){
+        .nav-bar{
+            width: 90%;
+            margin: auto;
+        }
+        .nav-left{
+            width: 15%;
+            float: left;
+            padding: 10px 0; 
+            margin-left: 100px;
+        }
+        .nav-list li{
+            font-size: 15px;
+        }
+        .nav-right {
+          width: 70%;
+        }
+        .nav-right ul{
+            margin-left: 0px;
+            padding-top: 10px;
+            padding-left: 20px;
+        }
+        #about{
+            width:100%;
+        }
+        .about-container{
+            width:750px;
+            margin: auto;
+        }
+        .about-img{
+            width: 40%;
+            padding: 0px;
+            display: inline-block;
+        }
+        .border , .about-img img{
+         width:100%;
+         height:100%;
+         padding: 0px;
+        }
+        .about-info{
+            width:60%;
+            padding: 50px;
+        }
+        .about-info ul{
+            width:100%;
+        }
+        .about-info ul li  {
+            font-size:14px;
+            font-weight: 300;
+            padding: 2px;
+
+        }
+        .services{
+            width: 100%;
+            margin: auto;
+        }
+        .services-element div{
+            padding: 15px 5px;
+            float: left;
+            width:50%;
+            text-align: center;
+        }
+        .image-container{
+            width:100%;
+          }
+        
+        .element{
+            float:left;
+            width:40%;
+            position:relative;
+            margin: 15px;
+        }
+
+}
+    
+@media All  and (min-width:576px) and (max-width: 768px){
+    .nav-bar{
+        width: 100%;
+        margin: auto;
+    }
+    .nav-left{
+        width: 10%;
+        float: left;
+        padding: 10px 0; 
+        margin-left: 100px;
+    }
+    .nav-right {
+      width: 70%;
+    }
+    .nav-right ul{
+        margin-left: 0px;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+
+}
+  
+    @media All and (max-width:768px){
+
+        .nav-bar{
+            width: 100%;
+            margin: auto;
+        }
+        .nav-left{
+            width: 10%;
+            float: left;
+            padding: 10px 0; 
+        }
+        .nav-right {
+          width: 70%;
+        }
+        .nav-right ul{
+            margin-left: 0px;
+      
+        }
+        .nav-list li{
+            display: inline-block;
+            list-style: none;
+            text-decoration: none;
+            font-family: 'Source Sans 3', sans-serif;
+            font-size:12px;
+            font-weight: 300;  
+        }
+
+        .address h1{
+            font-size:30px;
+            margin:5px 0;
+        }
+        .address h3{
+            font-size: 22px;
+            margin:0 ;
+        }
+        .address h4{
+            font-size: 20px;
+            margin: 0;
+        }
+        #about{
+            width:100%;
+        }
+        .about-container{
+            width:450px;
+            margin: auto;
+    
+        }
+        .about-img{
+            width: 100%;
+            float: none;
+            padding: 0px;
+            display: inline-block;
+            margin: auto;
+    
+        }
+        .about-img img{
+        width:90%;
+        height:70%;
+        position:relative;
+        left:0px;
+        top:0px;
+        overflow: hidden;
+        border-radius: 0;     
+        }
+        .about-img .img .layer{
+            width:90%;
+            border-radius: 0%;
+        }
+        .about-info{
+            float:none;
+            width:100%;
+            padding:50px 25px;
+        }
+        .about-info ul{
+            width:100%;
+            padding-top: 20px;
+        }
+        .about-info ul li{
+            float:none;
+            width:100%;
+            font-weight: 300;
+          }
+        .about-info ul li  {
+            font-size:16px;
+            font-weight: 300;
+            color: black;
+            padding: 7px;
+        }
+       
+        #services
+        {width: 100%;
+        margin: 70px auto;}
+
+        .services{
+            width: 100%;
+        }
+        .services-element div{
+            float: None;
+            width: 100%;
+            text-align: center;
+        }
+        #portofolio{
+            width: 100%;
+            padding: 50px 0;
+        }
+
+        .porto-buttons{
+            width: 85%;
+            display: block; 
+        }
+        .porto-buttons button{
+            display: inline-block; 
+            font-size: 15px; 
+        }
+        .image-container .element{
+            float:none;
+            width: 100%;
+            margin-bottom:0 ;
+        }
+        #Activity .Acti-element{
+            width: 100%;
+            float: none;
+        }
+        #Activity{
+            margin-top: 0;
+        }
+        #Activity .Acti-element h3{
+            font-size: 20px;
+        }
+        #Activity .Acti-element .icon{
+            font-size: 16px;
+            margin-top: 10px ;
+            margin-bottom: 5px;
+        }
+        #Activity .Acti-element h5{
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+        .feedback-card{
+            width: 70%;
+            padding: 0;
+        }
+        .feedback-card::before{
+            height: 72px;
+            left: -320px;
+        }
+        #card {
+            text-align: center;
+ 
+        }
+        #card div img{
+            float: none;
+            width: 25%;
+            position: static;
+            margin-top: 25px;
+        }
+        .card-data{
+            float: none;
+            display: block;
+            width: 100%;
+        }
+        .card-data h4 a{
+            font-size: 15px;
+        }
+        .card-data p {
+            font-size: 15px;
+            color: black;
+            font-weight:400;
+        }
+        .card-data h3 {
+            font-size: 18px;
+            color: black;
+        }
+        .blog-data{
+            width: 100%;
+            margin: auto;
+        }
+        .blog-element{
+           float: none;
+           width: 100%;
+           background-color:#FFF;
+       }
+       .form-style{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 100px;
+       }
+       #form_name , #form_email{
+        width: 90%;
+       }
+       .footer-links{
+        width: 100%;
+       }
+       .footer-p{
+        width: 100%;
+       }
+       .footer-element{
+        width: 90%;
+       }
+       
+
+    }
+
+    @media All and (max-width:530px){
+
+
+        .nav-bar{
+            width: 100%;
+        }
+        .nav-left{
+            width: 10%;
+            float: left;
+        }
+        .nav-left a{
+            font-size: 10px;
+        }
+        .nav-right {
+          width: 70%;
+        }
+        .nav-right ul{
+            margin-left: 0px;
+            padding: 0;
+      
+        }
+        .nav-list li{
+            display: inline-block;
+            list-style: none;
+            text-decoration: none;
+            font-family: 'Source Sans 3', sans-serif;
+            font-size:10px;
+            font-weight: 300;  
+        }
+    }
